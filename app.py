@@ -18,8 +18,9 @@ Base = declarative_base()
 app = Flask(__name__)
 #Base = declarative_base()
 # The database URI
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///methane.db"
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///db/methane.db"
 db = SQLAlchemy(app)
+#
 
 class Emissions(db.Model):
     __tablename__ = "emissions_data"
@@ -35,20 +36,34 @@ class Emissions(db.Model):
     def __repr__(self):
         return '<Emissions %r>' % (self.country)
 
-engine = create_engine("sqlite:///methane.db")
-conn = engine.connect()
+class Beef(db.Model):
+    __tablename__ = "meat_data"
+    Country = Column(String, primary_key=True)
+    CountryCode = Column(String)
+    Continent = Column(String)
+    Region = Column(String, nullable=True)
+    Year = Column(Integer, nullable=True)
+    Population = Column(Integer, nullable=True)
+    TotalBeefConsumption = Column(Integer, nullable=True)
+    BeefConsumptionPerCapita = Column(Integer)
 
-Base.metadata.create_all(engine)
+    def __repr__(self):
+        return '<Beef %r>' % (self.country)
 
-from sqlalchemy.orm import Session
-session = Session(bind=engine)
+#engine = create_engine("sqlite:///db/methane.db")
+#conn = engine.connect()
+
+##Base.metadata.create_all(engine)
+
+##from sqlalchemy.orm import Session
+#session = Session(bind=engine)
 
 @app.route("/")
 def index():
     """Return the homepage."""
     return render_template("index.html")
 
-@app.route("/emissions_data/")
+@app.route("/emissions_data")
 def getEmissions():
     """Return the MetaData for a given sample."""
     sel = [
@@ -62,7 +77,7 @@ def getEmissions():
 	    Emissions.Emissions_Per_Capita
         ]
 
-    results = session.query(*sel).all()
+    results = db.session.query(*sel).all()
 
    # Create a dictionary entry for each row of metadata information
     emissions_list = []
@@ -80,8 +95,50 @@ def getEmissions():
         emissions_list.append(emissions_metadata)
 
         print(emissions_list)
-        return jsonify(emissions_list)
+    return jsonify(emissions_list)
+
+
+@app.route("/meat_consumption")
+def index2():
+    """Return the homepage."""
+    return render_template("index2v2.html")
+
+@app.route("/meat_data")
+def getBeef():
+    """Return the MetaData for a given sample."""
+    sel = [
+        Beef.Country,
+        Beef.CountryCode,
+        Beef.Continent,
+        Beef.Region,
+        Beef.Year,
+        Beef.Population,
+        Beef.TotalBeefConsumption,
+	    Beef.BeefConsumptionPerCapita
+        ]
+
+    results = db.session.query(*sel).all()
+
+   # Create a dictionary entry for each row of metadata information
+    beef_list = []
+
+    for result in results: 
+        beef_metadata = {}
+        beef_metadata["Country"] = result[0]
+        beef_metadata["CountryCode"] = result[1]
+        beef_metadata["Continent"] = result[2]
+        beef_metadata["Region"] = result[3]
+        beef_metadata["Year"] = result[4]
+        beef_metadata["Population"] = result[5]
+        beef_metadata["TotalBeefConsumption"] = result[6]
+        beef_metadata["BeefConsumptionPerCapita"] = result[7]
+        beef_list.append(beef_metadata)
+
+        print(beef_list)
+    return jsonify(beef_list)
+
+
 
 
 if __name__ == "__main__":
-    app.run(port=8000)
+    app.run(debug=True, port=8000)

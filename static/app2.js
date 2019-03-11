@@ -1,32 +1,21 @@
 // d3.queue is a JS library that works with multiple asynchronious functions
 d3.queue()
-//makes 2 requests for topojson file and emissions_data.csv
+//makes 2 requests for topojson file and beef table
   .defer(d3.json, "//unpkg.com/world-atlas@1.1.4/world/50m.json")
-  .defer(d3.json, "/beef", function(row) {
-    for(var i =0; i < row.length; i++)
-    {
-      row[i].continent = row[i].Continent;
-      row[i].country = row[i].Country;
-      row[i].countryCode = row[i]["Country Code"];
-      row[i].emissions = +row[i]["Total Beef Consumption"];
-      row[i].emissionsPerCapita = +row[i]["Beef Consumption Per Capita"];
-      row[i].region = row[i].Region;
-      row[i].year = +row[i].Year;  
-    }
-
-    return 
-    // return {
-    //   continent: row.map(x => x.Continent),
-    //   country: row.Country,
-    //   countryCode: row["Country Code"],
-    //   emissions: +row["Total Beef Consumption"],
-    //   emissionsPerCapita: +row["Beef Consumption Per Capita"],
-    //   region: row.Region,
-    //   year: +row.Year
-    // }
-  })
+  .defer(d3.json, "/meat_data")
 // await to make sure fetch of all data is complete
   .await(function(error, mapData, data) {
+    data = data.map((row)=>{
+        return {
+          continent: row.Continent,
+          country: row.Country,
+          countryCode: ""+row.CountryCode,
+          Beef: row.TotalBeefConsumption,
+          Beef: row.BeefConsumptionPerCapital,
+          region: row.Region,
+          year: row.Year,
+        }
+      })
   //  if (error) throw error;
 //set variable for max and min year values
     var extremeYears = d3.extent(data, d => d.year);
@@ -87,7 +76,7 @@ d3.queue()
       var isArc = tgt.classed("arc");
       var dataType = d3.select("input:checked")
                        .property("value");
-      var units = dataType === "emissions" ? "thousand metric tons" : "metric tons per capita";
+      var units = dataType === "beef" ? "thousand metric tons" : "metric tons per capita";
       var data;
       var percentage = "";
       if (isCountry) data = tgt.data()[0].properties;

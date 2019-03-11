@@ -72,7 +72,7 @@ function createBar(width, height) {
         .duration(1000)
         .call(yAxis);
   
-    var axisLabel = dataType === "emissions" ?
+    var axisLabel = dataType == "emissions" ?
       "Consumption, thousand metric tons" :
       "Consumption, metric tons per capita";
   

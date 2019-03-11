@@ -2,40 +2,20 @@
 d3.queue()
 //makes 2 requests for topojson file and emissions_data.csv
   .defer(d3.json, "//unpkg.com/world-atlas@1.1.4/world/50m.json")
-  .defer(d3.json, "/emissions_data/", function(row) {
-
-    for(var i =0; i < row.length; i++)
-    {
-      // row[i].continent = row[i].Continent;
-      // row[i].country = row[i].Country;
-      // row[i].countryCode = row[i]["Country Code"];
-      // row[i].emissions = +row[i]["Total Beef Consumption"];
-      // row[i].emissionsPerCapita = +row[i]["Beef Consumption Per Capita"];
-      // row[i].region = row[i].Region;
-      // row[i].year = +row[i].Year;  
-
-      row[i].continent = row[i][0];
-      row[i].country = row[i][2];
-      row[i].countryCode = row[i][1];
-      row[i].emissions = +row[i][6];
-      row[i].emissionsPerCapita = +row[i][7];
-      row[i].region = row[i][3];
-      row[i].year = +row[i][4];      
-    }
-    
-    return row;
-    // return {
-    //   continent: row.map(x => x.Continent),
-    //   country: row.map(x => x.row.Country),
-    //   countryCode: row.map(x => x.row["Country_Code"]),
-    //   emissions: +row["Emissions"],
-    //   emissionsPerCapita: +row["Emissions_Per_Capita"],
-    //   region: row.Region,
-    //   year: +row.Year
-    // }
-  })
+  .defer(d3.json, "/emissions_data")
 // await to make sure fetch of all data is complete
   .await(function(error, mapData, data) {
+    data = data.map((row)=>{
+        return {
+          continent: row.Continent,
+          country: row.Country,
+          countryCode: ""+row.Country_Code,
+          emissions: row.Emissions,
+          emissionsPerCapita: row.Emissions_Per_Capita,
+          region: row.Region,
+          year: row.Year,
+        }
+      })
   //  if (error) throw error;
 //set variable for max and min year values
     var extremeYears = d3.extent(data, d => d.year);
