@@ -1,0 +1,231 @@
+Country,Country Code,Continent,Region,Year,Population,Emissions,Emissions Per Capita
+Argentina,032,Americas,South America,2012,42096739,88476.432,0.002101741
+Argentina,032,Americas,South America,2011,41656879,87609.016,0.00210311
+Argentina,032,Americas,South America,2010,41223889,86741.6,0.002104159
+Argentina,032,Americas,South America,2009,40799407,93113.2,0.002282219
+Argentina,032,Americas,South America,2008,40382389,97896.6,0.00242424
+Argentina,032,Americas,South America,2007,39970224,97783.6,0.002446411
+Argentina,032,Americas,South America,2006,39558890,100025,0.002528509
+Argentina,032,Americas,South America,2005,39145488,100126,0.002557792
+Argentina,032,Americas,South America,2004,38728696,101501,0.002620822
+Argentina,032,Americas,South America,2003,38309379,101066,0.002638153
+Argentina,032,Americas,South America,2002,37889370,95893.3,0.002530876
+Argentina,032,Americas,South America,2001,37471509,98515.1,0.002629067
+Argentina,032,Americas,South America,2000,37057452,99214.1,0.002677305
+Argentina,032,Americas,South America,1999,36648068,98301.3,0.002682305
+Argentina,032,Americas,South America,1998,36241590,100269,0.002766683
+Argentina,032,Americas,South America,1997,35833969,102577,0.002862563
+Argentina,032,Americas,South America,1996,35419682,101400,0.002862815
+Argentina,032,Americas,South America,1995,34994814,102195,0.00292029
+Argentina,032,Americas,South America,1994,34558115,101069,0.00292461
+Argentina,032,Americas,South America,1993,34110917,101568,0.00297758
+Argentina,032,Americas,South America,1992,33655151,102146,0.003035078
+Argentina,032,Americas,South America,1991,33193918,100648,0.003032122
+Argentina,032,Americas,South America,1990,32729739,102083,0.003118968
+Australia,036,Oceania,Australia and New Zealand,2012,22742475,125588.1936,0.005522187
+Australia,036,Oceania,Australia and New Zealand,2011,22340024,124100.348,0.005555068
+Australia,036,Oceania,Australia and New Zealand,2010,22031750,122574,0.005563516
+Australia,036,Oceania,Australia and New Zealand,2009,21691700,127532,0.005879299
+Australia,036,Oceania,Australia and New Zealand,2008,21249200,122245,0.005752922
+Australia,036,Oceania,Australia and New Zealand,2007,20827600,135612,0.006511168
+Australia,036,Oceania,Australia and New Zealand,2006,20697900,119085,0.005753482
+Australia,036,Oceania,Australia and New Zealand,2005,20394800,122172,0.00599035
+Australia,036,Oceania,Australia and New Zealand,2004,20127400,126732,0.006296491
+Australia,036,Oceania,Australia and New Zealand,2003,19895400,125529,0.006309448
+Australia,036,Oceania,Australia and New Zealand,2002,19651400,132305,0.006732599
+Australia,036,Oceania,Australia and New Zealand,2001,19413000,136147,0.007013187
+Australia,036,Oceania,Australia and New Zealand,2000,19153000,128133,0.00668997
+Australia,036,Oceania,Australia and New Zealand,1999,18926000,121783,0.006434693
+Australia,036,Oceania,Australia and New Zealand,1998,18711000,116914,0.00624841
+Australia,036,Oceania,Australia and New Zealand,1997,18517000,118625,0.006406275
+Australia,036,Oceania,Australia and New Zealand,1996,18311000,113515,0.006199279
+Australia,036,Oceania,Australia and New Zealand,1995,18072000,112637,0.00623268
+Australia,036,Oceania,Australia and New Zealand,1994,17855000,123283,0.006904677
+Australia,036,Oceania,Australia and New Zealand,1993,17667000,112836,0.006386823
+Australia,036,Oceania,Australia and New Zealand,1992,17495000,116503,0.006659217
+Australia,036,Oceania,Australia and New Zealand,1991,17284000,120601,0.006977609
+Australia,036,Oceania,Australia and New Zealand,1990,17065100,115150,0.00674769
+Brazil,076,Americas,South America,2012,200560983,477076.7946,0.002378712
+Brazil,076,Americas,South America,2011,198686688,469456.4973,0.002362798
+Brazil,076,Americas,South America,2010,196796269,443289,0.002252527
+Brazil,076,Americas,South America,2009,194895996,421609,0.002163251
+Brazil,076,Americas,South America,2008,192979029,421460,0.002183968
+Brazil,076,Americas,South America,2007,191026637,412677,0.002160311
+Brazil,076,Americas,South America,2006,189012412,407314,0.002154959
+Brazil,076,Americas,South America,2005,186917361,492336,0.002633977
+Brazil,076,Americas,South America,2004,184738458,459552,0.002487582
+Brazil,076,Americas,South America,2003,182482149,419110,0.002296718
+Brazil,076,Americas,South America,2002,180151021,388268,0.002155236
+Brazil,076,Americas,South America,2001,177750670,367626,0.002068212
+Brazil,076,Americas,South America,2000,175287587,343027,0.001956938
+Brazil,076,Americas,South America,1999,172759243,361634,0.002093283
+Brazil,076,Americas,South America,1998,170170640,376882,0.00221473
+Brazil,076,Americas,South America,1997,167545164,354875,0.002118086
+Brazil,076,Americas,South America,1996,164913306,350573,0.002125802
+Brazil,076,Americas,South America,1995,162296612,355036,0.002187575
+Brazil,076,Americas,South America,1994,159705123,334732,0.002095938
+Brazil,076,Americas,South America,1993,157132682,356615,0.002269515
+Brazil,076,Americas,South America,1992,154564278,340142,0.002200651
+Brazil,076,Americas,South America,1991,151976577,324383,0.002134428
+Brazil,076,Americas,South America,1990,149352145,319678,0.002140431
+Canada,124,Americas,Northern America,2012,34750545,106846.7743,0.003074679
+Canada,124,Americas,Northern America,2011,34342780,105687.6622,0.003077435
+Canada,124,Americas,Northern America,2010,34005274,104529,0.003073906
+Canada,124,Americas,Northern America,2009,33628571,103829,0.003087523
+Canada,124,Americas,Northern America,2008,33245773,107850,0.003244021
+Canada,124,Americas,Northern America,2007,32887928,107975,0.00328312
+Canada,124,Americas,Northern America,2006,32570505,107954,0.003314471
+Canada,124,Americas,Northern America,2005,32312000,108519,0.003358474
+Canada,124,Americas,Northern America,2004,31995000,114500,0.003578684
+Canada,124,Americas,Northern America,2003,31676000,111137,0.003508555
+Canada,124,Americas,Northern America,2002,31362000,106819,0.003406001
+Canada,124,Americas,Northern America,2001,31081900,103053,0.003315531
+Canada,124,Americas,Northern America,2000,30769700,102170,0.003320474
+Canada,124,Americas,Northern America,1999,30499200,104782,0.003435566
+Canada,124,Americas,Northern America,1998,30247900,114948,0.003800198
+Canada,124,Americas,Northern America,1997,29987200,98142.2,0.003272803
+Canada,124,Americas,Northern America,1996,29671900,97909.6,0.003299742
+Canada,124,Americas,Northern America,1995,29354000,109622,0.003734483
+Canada,124,Americas,Northern America,1994,29111906,104467,0.003588463
+Canada,124,Americas,Northern America,1993,28833410,89389.9,0.00310022
+Canada,124,Americas,Northern America,1992,28519597,83400.6,0.002924326
+Canada,124,Americas,Northern America,1991,28171682,81474,0.002892053
+Canada,124,Americas,Northern America,1990,27791000,77163.5,0.002776564
+China,156,Asia,Eastern Asia,2012,1350695000,1752290.14,0.001297325
+China,156,Asia,Eastern Asia,2011,1344130000,1697274.47,0.001262731
+China,156,Asia,Eastern Asia,2010,1337705000,1642260,0.00122767
+China,156,Asia,Eastern Asia,2009,1331260000,1582750,0.001188911
+China,156,Asia,Eastern Asia,2008,1324655000,1537220,0.001160468
+China,156,Asia,Eastern Asia,2007,1317885000,1444170,0.001095824
+China,156,Asia,Eastern Asia,2006,1311020000,1392640,0.001062257
+China,156,Asia,Eastern Asia,2005,1303720000,1327790,0.001018463
+China,156,Asia,Eastern Asia,2004,1296075000,1251300,0.000965453
+China,156,Asia,Eastern Asia,2003,1288400000,1146530,0.000889887
+China,156,Asia,Eastern Asia,2002,1280400000,1085790,0.000848008
+China,156,Asia,Eastern Asia,2001,1271850000,1051690,0.000826898
+China,156,Asia,Eastern Asia,2000,1262645000,1043400,0.000826361
+China,156,Asia,Eastern Asia,1999,1252735000,1055950,0.000842916
+China,156,Asia,Eastern Asia,1998,1241935000,1060240,0.0008537
+China,156,Asia,Eastern Asia,1997,1230075000,1066800,0.000867264
+China,156,Asia,Eastern Asia,1996,1217550000,1093470,0.00089809
+China,156,Asia,Eastern Asia,1995,1204855000,1075420,0.000892572
+China,156,Asia,Eastern Asia,1994,1191835000,1020310,0.000856083
+China,156,Asia,Eastern Asia,1993,1178440000,1002980,0.000851108
+China,156,Asia,Eastern Asia,1992,1164970000,1010330,0.000867258
+China,156,Asia,Eastern Asia,1991,1150780000,1013520,0.000880724
+China,156,Asia,Eastern Asia,1990,1135185000,1016910,0.00089581
+India,356,Asia,Southern Asia,2012,1263065852,636395.8272,0.00050385
+India,356,Asia,Southern Asia,2011,1247236029,628938.0636,0.000504265
+India,356,Asia,Southern Asia,2010,1230980691,621480,0.000504866
+India,356,Asia,Southern Asia,2009,1214270132,620918,0.000511351
+India,356,Asia,Southern Asia,2008,1197146906,606364,0.000506508
+India,356,Asia,Southern Asia,2007,1179681239,598069,0.000506975
+India,356,Asia,Southern Asia,2006,1161977719,589705,0.000507501
+India,356,Asia,Southern Asia,2005,1144118674,584676,0.000511027
+India,356,Asia,Southern Asia,2004,1126135777,577716,0.000513007
+India,356,Asia,Southern Asia,2003,1108027848,575287,0.000519199
+India,356,Asia,Southern Asia,2002,1089807112,565939,0.000519302
+India,356,Asia,Southern Asia,2001,1071477855,568476,0.000530553
+India,356,Asia,Southern Asia,2000,1053050912,561733,0.000533434
+India,356,Asia,Southern Asia,1999,1034539214,571165,0.000552096
+India,356,Asia,Southern Asia,1998,1015974042,553240,0.000544541
+India,356,Asia,Southern Asia,1997,997405318,550939,0.000552372
+India,356,Asia,Southern Asia,1996,978893217,547580,0.000559387
+India,356,Asia,Southern Asia,1995,960482795,542270,0.000564581
+India,356,Asia,Southern Asia,1994,942204249,535828,0.000568696
+India,356,Asia,Southern Asia,1993,924057817,529117,0.000572602
+India,356,Asia,Southern Asia,1992,906021106,524521,0.000578928
+India,356,Asia,Southern Asia,1991,888054875,520959,0.000586629
+India,356,Asia,Southern Asia,1990,870133480,513704,0.000590374
+Indonesia,360,Asia,South-Eastern Asia,2012,248883232,223315.74,0.000897271
+Indonesia,360,Asia,South-Eastern Asia,2011,245707511,221126.37,0.000899958
+Indonesia,360,Asia,South-Eastern Asia,2010,242524123,218937,0.000902743
+Indonesia,360,Asia,South-Eastern Asia,2009,239340478,302828,0.00126526
+Indonesia,360,Asia,South-Eastern Asia,2008,236159276,215937,0.00091437
+Indonesia,360,Asia,South-Eastern Asia,2007,232989141,214323,0.000919884
+Indonesia,360,Asia,South-Eastern Asia,2006,229838202,515945,0.002244818
+Indonesia,360,Asia,South-Eastern Asia,2005,226712730,307454,0.001356139
+Indonesia,360,Asia,South-Eastern Asia,2004,223614649,250429,0.001119913
+Indonesia,360,Asia,South-Eastern Asia,2003,220545214,216483,0.000981581
+Indonesia,360,Asia,South-Eastern Asia,2002,217508059,342524,0.001574765
+Indonesia,360,Asia,South-Eastern Asia,2001,214506502,203333,0.000947911
+Indonesia,360,Asia,South-Eastern Asia,2000,211540429,170032,0.00080378
+Indonesia,360,Asia,South-Eastern Asia,1999,208612556,181938,0.000872134
+Indonesia,360,Asia,South-Eastern Asia,1998,205715544,276717,0.001345144
+Indonesia,360,Asia,South-Eastern Asia,1997,202826465,912857,0.00450068
+Indonesia,360,Asia,South-Eastern Asia,1996,199914831,196284,0.000981838
+Indonesia,360,Asia,South-Eastern Asia,1995,196957849,200127,0.001016091
+Indonesia,360,Asia,South-Eastern Asia,1994,193945272,357567,0.001843649
+Indonesia,360,Asia,South-Eastern Asia,1993,190879523,229782,0.001203806
+Indonesia,360,Asia,South-Eastern Asia,1992,187766086,364640,0.001941991
+Indonesia,360,Asia,South-Eastern Asia,1991,184615979,391055,0.002118208
+Indonesia,360,Asia,South-Eastern Asia,1990,181436821,211531,0.001165866
+Russian Federation,643,Europe,Eastern Europe,2012,143201676,545818.581,0.003811538
+Russian Federation,643,Europe,Eastern Europe,2011,142960868,539682.7905,0.003775039
+Russian Federation,643,Europe,Eastern Europe,2010,142849449,533546,0.003735023
+Russian Federation,643,Europe,Eastern Europe,2009,142785342,507742,0.003555981
+Russian Federation,643,Europe,Eastern Europe,2008,142742350,511550,0.00358373
+Russian Federation,643,Europe,Eastern Europe,2007,142805088,504013,0.003529377
+Russian Federation,643,Europe,Eastern Europe,2006,143049528,495215,0.003461843
+Russian Federation,643,Europe,Eastern Europe,2005,143518523,494483,0.00344543
+Russian Federation,643,Europe,Eastern Europe,2004,144067054,486820,0.003379121
+Russian Federation,643,Europe,Eastern Europe,2003,144648257,509646,0.003523347
+Russian Federation,643,Europe,Eastern Europe,2002,145306046,489125,0.003366171
+Russian Federation,643,Europe,Eastern Europe,2001,145976083,470194,0.003221035
+Russian Federation,643,Europe,Eastern Europe,2000,146596557,465970,0.003178588
+Russian Federation,643,Europe,Eastern Europe,1999,147214392,455382,0.003093325
+Russian Federation,643,Europe,Eastern Europe,1998,147670692,498651,0.003376777
+Russian Federation,643,Europe,Eastern Europe,1997,147915307,451678,0.003053626
+Russian Federation,643,Europe,Eastern Europe,1996,148160042,490520,0.003310744
+Russian Federation,643,Europe,Eastern Europe,1995,148375726,485644,0.003273069
+Russian Federation,643,Europe,Eastern Europe,1994,148336000,514496,0.00346845
+Russian Federation,643,Europe,Eastern Europe,1993,148520000,553641,0.00372772
+Russian Federation,643,Europe,Eastern Europe,1992,148689000,576744,0.003878861
+Russian Federation,643,Europe,Eastern Europe,1991,148624000,601461,0.004046863
+Russian Federation,643,Europe,Eastern Europe,1990,148292000,624883,0.004213869
+Switzerland,756,Europe,Western Europe,2012,7996861,4900.250754,0.000612772
+Switzerland,756,Europe,Western Europe,2011,7912398,4902.809877,0.000619636
+Switzerland,756,Europe,Western Europe,2010,7824909,4992.3,0.000638001
+Switzerland,756,Europe,Western Europe,2009,7743831,4897.93,0.000632494
+Switzerland,756,Europe,Western Europe,2008,7647675,4946.62,0.000646814
+Switzerland,756,Europe,Western Europe,2007,7551117,4953.02,0.000655932
+Switzerland,756,Europe,Western Europe,2006,7483934,4945.07,0.000660758
+Switzerland,756,Europe,Western Europe,2005,7437115,4954.17,0.000666141
+Switzerland,756,Europe,Western Europe,2004,7389625,4977.71,0.000673608
+Switzerland,756,Europe,Western Europe,2003,7339001,4975.49,0.000677952
+Switzerland,756,Europe,Western Europe,2002,7284753,5084.65,0.000697985
+Switzerland,756,Europe,Western Europe,2001,7229854,5150.73,0.000712425
+Switzerland,756,Europe,Western Europe,2000,7184250,5126.48,0.000713572
+Switzerland,756,Europe,Western Europe,1999,7143991,5155.53,0.00072166
+Switzerland,756,Europe,Western Europe,1998,7110001,5328.37,0.000749419
+Switzerland,756,Europe,Western Europe,1997,7088906,5386.85,0.000759899
+Switzerland,756,Europe,Western Europe,1996,7071850,5576.61,0.000788565
+Switzerland,756,Europe,Western Europe,1995,7040687,5613.28,0.000797263
+Switzerland,756,Europe,Western Europe,1994,6993795,5695.96,0.000814431
+Switzerland,756,Europe,Western Europe,1993,6938265,5666.06,0.000816639
+Switzerland,756,Europe,Western Europe,1992,6875364,5749.27,0.000836213
+Switzerland,756,Europe,Western Europe,1991,6799978,5865.67,0.000862601
+Switzerland,756,Europe,Western Europe,1990,6715519,5907.07,0.000879615
+United States,840,Americas,Northern America,2012,313993272,499809.345,0.001591784
+United States,840,Americas,Northern America,2011,311644280,514948.8225,0.001652361
+United States,840,Americas,Northern America,2010,309338421,524709,0.00169623
+United States,840,Americas,Northern America,2009,306771529,528695,0.001723416
+United States,840,Americas,Northern America,2008,304093966,547798,0.00180141
+United States,840,Americas,Northern America,2007,301231207,542996,0.001802589
+United States,840,Americas,Northern America,2006,298379912,540769,0.001812351
+United States,840,Americas,Northern America,2005,295516599,538396,0.001821881
+United States,840,Americas,Northern America,2004,292805298,544113,0.001858276
+United States,840,Americas,Northern America,2003,290107933,551252,0.001900162
+United States,840,Americas,Northern America,2002,287625193,550977,0.001915608
+United States,840,Americas,Northern America,2001,284968955,551411,0.001934986
+United States,840,Americas,Northern America,2000,282162411,556609,0.001972655
+United States,840,Americas,Northern America,1999,279040000,568261,0.002036486
+United States,840,Americas,Northern America,1998,275854000,577778,0.002094507
+United States,840,Americas,Northern America,1997,272657000,589672,0.002162688
+United States,840,Americas,Northern America,1996,269394000,598692,0.002222366
+United States,840,Americas,Northern America,1995,266278000,604505,0.002270203
+United States,840,Americas,Northern America,1994,263126000,615255,0.002338252
+United States,840,Americas,Northern America,1993,259919000,617080,0.002374124
+United States,840,Americas,Northern America,1992,256514000,623194,0.002429474
+United States,840,Americas,Northern America,1991,252981000,627323,0.002479724
+United States,840,Americas,Northern America,1990,249623000,637636,0.002554396

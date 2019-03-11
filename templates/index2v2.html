@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Group Project 2</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+  <div id="nav">
+    <h2> Meat Consumption Dashboard</h2>
+    <p>
+      Explore Meat Consumption by year. 
+      Current year: <span id="year-val"></span>
+      <input id="year" type="range" step="1">
+    </p>
+    <p>
+      Choose between total consumption or consumptions per capita.
+      <input type="radio" name="data-type" value="emissions" checked>
+      <label>Consumption</label>
+      <input type="radio" name="data-type" value="emissionsPerCapita">
+      <label>Consumption Per Capita</label>
+    </p>
+    <p> <a href="/">Click here</a> to explore the relationship between meat consumption and methane emissions.
+    </p>
+    <p>Click on a country to see its trends by year.</p>
+  </div>
+  <section class="container">
+    <div class="chart-container">
+    <svg 
+      version="1.1"
+      baseProfile="full"
+      xmlns="http://www.w3.org/2000/svg" 
+      id="map">
+    </svg>
+  </div>
+  <div class="chart-container right">
+    <svg 
+      version="1.1"
+      baseProfile="full"
+      xmlns="http://www.w3.org/2000/svg" 
+      id="pie">
+    </svg>
+    <svg 
+      version="1.1"
+      baseProfile="full"
+      xmlns="http://www.w3.org/2000/svg" 
+      id="bar">
+    </svg>
+  </div>
+  </section>
+  <div class="tooltip"></div>
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://unpkg.com/topojson@3"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script> -->
+  <script src="../static/beefpie.js"></script>
+  <script src="../static/beefbar.js"></script>
+  <script src="../static/beefmap.js"></script>
+  <script src="../static/app2.js"></script>
+</body>
+</html>
